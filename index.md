@@ -218,7 +218,7 @@ magazine_row.html
 
 #####  npm create vue@latest
 
-- Project name: .
+- Project name: Magazines Management
 - Add TypeScript? No (unless you want TypeScript)
 - Add JSX Support? No
 - Add Vue Router? No
