@@ -272,11 +272,13 @@ createApp(App).mount('#app');
 <code>/www/postcss.config.js</code>
 
 ```bash
-import { createApp } from 'vue';
-import App from './App.vue';
-import './assets/tailwind.css';
+export default {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  };
 
-createApp(App).mount('#app');
 ```
 So now TailwindCSS features can be use now.
 
